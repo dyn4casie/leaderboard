@@ -4,23 +4,38 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Leaderboard</title>
     <link rel="icon" href="./img/hng.png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-    <nav id="idea" class="navbar navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-header">
-                <img src="./img/hng_logo-min.png" alt="logo" class="logo text-center" />
+
+
+<body data-target="#navbarResponsive">
+    <!-- start home section -->
+    <div id="home">
+        <!-- nav -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">LeaderBoard</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+                <div class="collapse navbar-collapse " id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a href="#logout" class="nav-link">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-        </div>
-    </nav>
-    <div class="main text-center">
-        <h1>LEADER BOARD</h1>
+
+        </nav>
         <section class="top-rank">
             <h3>Top 3 Interns
                 <img src="./img/star.svg" />

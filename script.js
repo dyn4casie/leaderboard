@@ -44,7 +44,3 @@ function appendData(data) {
         row.insertCell(6).innerHTML = `<a href="https://twitter.com/intent/tweet?text=My%20Total%20Point%20on%20HNG%20Leader%20board%20is ${totalPoints}" target="_blank">Share on Twitter</a>`;
     }
 }
-
-
-
-// console.log(object)
