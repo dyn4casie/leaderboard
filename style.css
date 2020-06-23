@@ -194,3 +194,9 @@ td:nth-last-child(2) {
     width: 50%;
     justify-content: center;
 }
+
+p {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
