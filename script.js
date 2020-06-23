@@ -1,4 +1,4 @@
-fetch("./data.json")
+fetch("./assets/data.json")
     .then(function(response) {
         return response.json();
     })
