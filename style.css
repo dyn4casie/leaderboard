@@ -190,6 +190,11 @@ td:nth-last-child(2) {
     margin: 0 auto;
 }
 
+.nav-link.active,
+.nav-link:hover {
+    color: #1ebba3;
+}
+
 .logo {
     width: 50%;
     justify-content: center;
