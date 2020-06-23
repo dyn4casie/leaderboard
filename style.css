@@ -63,6 +63,10 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
 td:nth-child(1) {
     text-transform: uppercase;
     font-weight: bold;
@@ -119,20 +123,15 @@ td:nth-last-child(2) {
 }
 
 .yellow {
-    background: #4a5568;
+    background: #1ebba3;
 }
 
 .green {
-    background: #4a5568;
+    background: #1ebba3;
 }
 
 .purple {
-    background: #4a5568;
-}
-
-.nav-link:hover {
-    background-color: #3e8e41;
-    color: white;
+    background: #1ebba3;
 }
 
 .ranking {
@@ -141,12 +140,12 @@ td:nth-last-child(2) {
     color: #000000;
     margin-bottom: 0;
     padding: 20px 0;
-    background: #ffffff;
+    background: #1ebba3;
     border-radius: 15px 15px 0 0;
 }
 
 .main {
-    background: #ffffff;
+    background: #4a5564;
     border-radius: 15px;
     margin: 5% auto;
 }
@@ -195,9 +194,9 @@ td:nth-last-child(2) {
     margin: 0 auto;
 }
 
-.nav-link.active,
 .nav-link:hover {
-    color: #1ebba3;
+    background: #1ebba3;
+    columns: white;
 }
 
 .logo {
