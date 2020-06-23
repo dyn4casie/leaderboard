@@ -130,6 +130,11 @@ td:nth-last-child(2) {
     background: #4a5568;
 }
 
+.nav-link:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+
 .ranking {
     font-weight: bold;
     font-size: 24px;
